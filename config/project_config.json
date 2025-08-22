@@ -1,0 +1,29 @@
+{
+  "database": {
+    "path": "database/db_files/flavor_lab.db",
+    "backup_interval": 3600,
+    "max_backups": 10
+  },
+  "ui": {
+    "stylesheet_enabled": true,
+    "theme": "light",
+    "font_size": 10,
+    "animation_enabled": true
+  },
+  "backup": {
+    "auto_backup": true,
+    "backup_interval": 1800,
+    "max_auto_backups": 20,
+    "backup_path": "backups/auto"
+  },
+  "export": {
+    "default_format": "json",
+    "include_version_history": true,
+    "include_analysis_data": true
+  },
+  "analysis": {
+    "cost_calculation_enabled": true,
+    "flavor_balance_analysis": true,
+    "persistence_prediction": true
+  }
+}
